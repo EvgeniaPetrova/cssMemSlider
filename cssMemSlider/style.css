@@ -134,3 +134,34 @@
   #ri4:checked ~ .nav .content {
     transform: translate(-75%, 0%);
   }
+  @media (max-width: 480px) {
+    .container {
+      max-width: 80vw;
+      max-height: 55vh;
+    }
+    .slider {
+      height: 80%;
+    }
+    .nav {
+   flex-flow: column-reverse;
+   justify-content: space-evenly;
+   height: 20%;
+    }
+    .text {
+      font-size: 1rem;
+    }
+    label {
+      height: 2.5rem;
+      width: 2rem;
+    }
+    .radio {
+      height: 0.8rem;
+      width: 0.8rem;
+    }
+    .descriptions {
+      width: 100%;
+    }
+    .buttons {
+      width: 35%;
+  }
+  }
