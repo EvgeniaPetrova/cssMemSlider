@@ -108,3 +108,29 @@
     background-color: purple;
     transform: scale(1.3);
   }
+  
+#ri1:checked ~ .slider {
+    transform: translate(0%, 0%);
+  }
+  #ri2:checked ~ .slider {
+    transform: translate(-25%, 0%);
+  }
+  #ri3:checked ~ .slider {
+    transform: translate(-50%, 0%);
+  }
+  #ri4:checked ~ .slider {
+    transform: translate(-75%, 0%);
+  }
+  
+  #ri1:checked ~ .nav .content {
+    transform: translate(0%, 0%);
+  }
+  #ri2:checked ~ .nav .content {
+    transform: translate(-25%, 0%);
+  }
+  #ri3:checked ~ .nav .content {
+    transform: translate(-50%, 0%);
+  }
+  #ri4:checked ~ .nav .content {
+    transform: translate(-75%, 0%);
+  }
